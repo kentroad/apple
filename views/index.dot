@@ -1,0 +1,5 @@
+<h1>Hi {{=it.title}}!</h1>
+
+{{ for (var i = 1; i <= 10; i++) { }}
+<p>{{=i}}: Welcome to {{=this.platform}}</p>
+{{ } }}
