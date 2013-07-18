@@ -1,0 +1,13 @@
+<div class="hero-unit">
+	<h1>{{=it.title}}</h1>
+  <p>{{=it.description}}</p>
+  <p>
+    <a class="btn btn-primary btn-large">
+      {{? it.button }}
+      	{{=it.button}}
+      {{??}} 
+      	Don't push me 
+      {{?}}
+    </a>
+  </p>
+</div>

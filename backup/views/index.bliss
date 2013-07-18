@@ -1,0 +1,15 @@
+@!(locals)
+<h1>Hi @locals.title!</h1>
+
+@function printMessage(counter) {
+	<p>@counter: Welcome to @locals.message!</p>
+}
+
+@function double(value) {
+	@{return value * 2;}
+}
+
+@for (var i = 1; i <= 10; ++i) {
+  @{i = double(i)}
+  @printMessage(i)
+}

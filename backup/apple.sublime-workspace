@@ -1,0 +1,474 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"CREATE"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"getE",
+				"getElementsByTagNameNS	jsDOM"
+			],
+			[
+				"i",
+				"if	JS - if"
+			],
+			[
+				"for",
+				"for	JS - For loop"
+			],
+			[
+				"fun",
+				"function	jsProp"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1655,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "var dummyResponse = {\n  \"name\" : \"Monty Python and the search for the holy grail\",\n  \"id\" : 123,\n  \"startPrice\" : 0.69,\n  \"currency\" : \"GBP\",\n  \"description\" : \"Must have item\",\n  \"links\" : [{\n    \"linkType\" : \"application/vnd.smartbid.item\",\n    \"rel\" : \"Add item to watchlist\",\n    \"href\" : \"/users/123/watchlist\"\n  }, {\n    \"linkType\" : \"application/vnd.smartbid.bid\",\n    \"rel\" : \"Place bid on item\",\n    \"href\" : \"/items/123/bid\"\n  }, {\n    \"linkType\" : \"application/vnd.smartbid.user\",\n    \"rel\" : \"Get owner's details\",\n    \"href\" : \"/users/123\"\n  }]\n};\n\nmodule.exports = function(app) {\n  app.get('/items/:itemid', get);\n}\n\n// called from app.js\nvar get = function(req, res) {\n  res.type('application/vnd.smartbid.item+json');\n  res.send(200, dummyResponse);\n};",
+			"file": "routes/smartbid.js",
+			"file_size": 794,
+			"file_write_time": 130182722501495626,
+			"settings":
+			{
+				"buffer_size": 769,
+				"line_ending": "Windows",
+				"name": "// just a dummy response for now, persistence we'l"
+			}
+		},
+		{
+			"file": "views/index.bliss",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 254,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/start.js",
+			"settings":
+			{
+				"buffer_size": 157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.jshtml",
+			"settings":
+			{
+				"buffer_size": 174,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Node",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Workspace/Node/apple/apple.sublime-project",
+		"/D/Workspace/Node/apple/public/stylesheets/style.css",
+		"/D/Workspace/Node/apple/package.json",
+		"/D/Workspace/Node/apple/views/index.dot",
+		"/D/Workspace/Node/apple/routes/start.js",
+		"/D/Downloads/layout.jade",
+		"/D/Workspace/Node/apple/views/layout.dot",
+		"/D/Workspace/Node/apple/routes/user.js",
+		"/D/Workspace/Node/apple/views/layout.jade",
+		"/D/Workspace/Node/apple/views/index.jade",
+		"/D/Workspace/Node/cookbook/login/app.js",
+		"/D/Workspace/Node/cookbook/login/routes/index.js",
+		"/D/Workspace/Node/cookbook/login/routes/login.js",
+		"/D/Workspace/Node/cookbook/login/views/login.jade",
+		"/D/Workspace/Node/cookbook/login/views/index.jade",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/D/Workspace/Node/cookbook/webserver/public/stylesheets/style.css",
+		"/D/Workspace/Node/cookbook/webserver/views/layout.jade",
+		"/D/Workspace/Node/cookbook/webserver/views/index.jade",
+		"/D/Workspace/Node/cookbook/webserver/views/stylesheets/style.styl",
+		"/D/Workspace/Node/cookbook/webserver/app.js",
+		"/D/Workspace/Node/cookbook/webserver/views/stylesheets/index.styl",
+		"/D/Workspace/Node/cookbook/webserver/routes/index.js",
+		"/D/Workspace/Node/cookbook/webserver/profiles.js",
+		"/D/Workspace/Node/cookbook/webserver/package.json",
+		"/D/Workspace/Node/cookbook/webserver/index.html",
+		"/D/Workspace/Node/cookbook/webserver/server.js",
+		"/D/Workspace/Node/cookbook/webserver/test.js",
+		"/D/Workspace/Node/cookbook/webserver/jsonp_example.html",
+		"/D/Workspace/MyCode/js/ObjectTraverse.js",
+		"/D/Workspace/Node/cookbook/webserver/create.sql",
+		"/D/Workspace/MyCode/js/test.js",
+		"/D/Workspace/Node/cookbook/webserver/json_and_back.js",
+		"/D/Workspace/Node/cookbook/SourceCode/03-Working with Data Serialization/10-Converting an Object to JSON and Back Again/profiles.js",
+		"/D/Workspace/Node/cookbook/SourceCode/03-Working with Data Serialization/10-Converting an Object to JSON and Back Again/json_and_back.js",
+		"/D/Workspace/Node/cookbook/SourceCode/03-Working with Data Serialization/10-Converting an Object to JSON and Back Again/jsonp_example.html",
+		"/D/Workspace/Node/cookbook/SourceCode/02-Exploring the HTTP Object/08-Using Node as an HTTP Client/upload.js",
+		"/D/Workspace/Node/cookbook/webserver/route.js",
+		"/D/Workspace/Node/cookbook/SourceCode/01-Making A Web Server/04-Optimizing Performance with Streaming/server.js",
+		"/D/Workspace/Node/cookbook/webserver/uploads/9adb54a46b1a2667711a5882bf23cf54",
+		"/D/Workspace/Node/cookbook/SourceCode/02-Exploring the HTTP Object/07-Handling File Uploads/server.js",
+		"/D/Workspace/Node/cookbook/test.js",
+		"/D/Workspace/Node/cookbook/SourceCode/02-Exploring the HTTP Object/06-Processing POST Data/server.js",
+		"/D/Workspace/Node/cookbook/SourceCode/02-Exploring the HTTP Object/06-Processing POST Data/connect_bodyParser_server.js",
+		"/D/Workspace/HTML5/Angularjs/angular-phonecat/scripts/web-server.js",
+		"/D/Workspace/Node/cookbook/SourceCode/01-Making A Web Server/04-Optimizing Performance with Streaming/test.js",
+		"/D/Workspace/Node/cookbook/SourceCode/01-Making A Web Server/02-Serving Static Files/server.js",
+		"/D/Workspace/Node/cookbook/SourceCode/01-Making A Web Server/01-Setting Up A Router/server.js",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/EsFormatter/EsFormatter.sublime-settings",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Workspace/Node/cookbook/cookbook.sublime-project",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.py",
+		"/D/Workspace/MyCode/Mycode.sublime-project",
+		"/D/Workspace/HTML5/Angularjs/angular-phonecat/phoncat.sublime-project",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/Workspace/MyCode/wrapper.js",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/D/Workspace/HTML5/Angularjs/angular-phonecat/app/index.html",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Web Inspector/Default (Windows).sublime-keymap",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Web Inspector/swi.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"app",
+			"process",
+			"o["
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"printKeyValue",
+			"obj["
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1400,
+								1400
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 557.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/smartbid.js",
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								560,
+								560
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// just a dummy response for now, persistence we'l",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/index.bliss",
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "routes/start.js",
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/index.jshtml",
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 205.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Workspace/MyCode/Mycode.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}

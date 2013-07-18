@@ -5,7 +5,9 @@ module.exports = function(app) {
  
 
 var index = function(req, res){
-	res.render('index', { title: 'Express', layout: false });
+	res.render('index', { title: 'Apple is my first project', 
+												description: 'Every start is funny',
+												button: 'PushMe'});
 };
 /*
 var index = function(req, res){

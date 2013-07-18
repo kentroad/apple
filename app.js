@@ -1,8 +1,4 @@
 
-/**
- * Module dependencies.
- */
-
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
@@ -18,9 +14,6 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'dot' );
 app.engine('dot', doT.__express );
 
-// app.use(online.add);
-// app.use(online.find);
-
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
@@ -34,19 +27,10 @@ if ('development' == app.get('env')) {
   require('./routes/test')(app);
 }
 
-doT.setGlobals({platform: "Express.js"});
-
-
-/* 
-app.get('/online', function(req, res){
-  res.send(req.online.length + ' users online');
+doT.setGlobals({
+	platform: "Express.js"
 });
-*/
 
-
-// http.createServer(app).listen(port, function(){
-//   console.log('Express server listening on port ' + port);
-// });
 
 app.listen(port, function(){
   console.log('Express server listening on port ' + port);	
