@@ -10,7 +10,6 @@
     "redis": "*",
     "jade": "*",
     "express-dot": "*",
-    "jshtml-express": "*",
-    "bliss": "*"
+    "mongoskin": "*"
   }
 }

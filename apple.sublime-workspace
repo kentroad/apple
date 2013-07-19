@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"ite",
+				"iterations"
+			],
+			[
+				"crypto",
+				"crypto.Hash();"
+			],
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"m",
+				"meta	Tag"
+			],
+			[
 				"cons",
 				"console.log(message);"
 			],
@@ -36,19 +56,44 @@
 	"buffers":
 	[
 		{
-			"file": "qtest.js",
+			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 324,
+				"buffer_size": 844,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "var express = require('express');\nvar app = express();\n\napp.use(express.directory('public'))\napp.use(express.static('public'))\n\napp.use(express.basicAuth(function(user, pass){\n  return 'admin' == user & 'admin' == pass;\n}));\n\napp.get('/admin', function(req, res){\n  res.end('remoteUser: ' + req.user);\n});\n\napp.listen(8080);",
+			"file": "qtest.js",
 			"settings":
 			{
-				"buffer_size": 324,
+				"buffer_size": 1517,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/mongodb/mongod.cfg",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Batch/InstallMongoService.bat",
+			"settings":
+			{
+				"buffer_size": 51,
+				"line_ending": "Windows",
+				"name": "mongod.exe --config d:\\mongodb\\mongod.cfg --instal"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 249,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -60,7 +105,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
+				"Package Control: Remove Package"
 			],
 			[
 				"Package Control: i",
@@ -83,11 +128,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 213.0
 	},
 	"distraction_free":
 	{
@@ -100,13 +145,29 @@
 	},
 	"file_history":
 	[
-		"/D/Workspace/Node/apple/app.js",
+		"/D/mongodb/mongorc.js",
+		"/D/Workspace/Node/jumpstart/authentication/app.js",
+		"/D/mongodb/mongod.cfg",
+		"/C/Batch/InstallMongoDB.bat",
+		"/D/Workspace/Node/apple/views/index.dot",
+		"/D/Workspace/Node/apple/views/layout.dot",
+		"/D/TEMP/bootstrap-master/docs/examples/hero.html",
 		"/D/Workspace/Node/apple/routes/test.js",
+		"/D/Workspace/Node/apple/views/hero.dot",
+		"/D/Workspace/Node/apple/auth.js",
+		"/D/Workspace/Node/apple/node_modules/express-dot/express-dot.js",
+		"/D/Workspace/Node/apple/app.js",
 		"/D/Workspace/Node/apple/qtest.js",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/User/sublime-API-Completions-Package.sublime-settings",
+		"/D/TEMP/Bootstrap, from Twitter.htm",
+		"/D/Workspace/Node/apple/public/lib/css/bootstrap.css",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/JavaScript and jQuery API Completions/sublime-API-Completions-Package.sublime-settings",
 		"/D/TEMP/Express - api reference.htm",
 		"/D/TEMP/Syntax Diagrams For SQLite.htm",
 		"/D/Workspace/Node/apple/package.json",
-		"/D/Workspace/Node/apple/views/index.dot",
 		"/D/Workspace/Node/apple/routes/index.js",
 		"/D/Workspace/Node/apple/routes/user.js",
 		"/D/Workspace/Node/apple/routes/online.js",
@@ -118,7 +179,6 @@
 		"/D/Workspace/Node/apple/public/stylesheets/style.css",
 		"/D/Workspace/Node/apple/routes/start.js",
 		"/D/Downloads/layout.jade",
-		"/D/Workspace/Node/apple/views/layout.dot",
 		"/D/Workspace/Node/apple/views/layout.jade",
 		"/D/Workspace/Node/apple/views/index.jade",
 		"/D/Workspace/Node/cookbook/login/app.js",
@@ -126,7 +186,6 @@
 		"/D/Workspace/Node/cookbook/login/routes/login.js",
 		"/D/Workspace/Node/cookbook/login/views/login.jade",
 		"/D/Workspace/Node/cookbook/login/views/index.jade",
-		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/D/Workspace/Node/cookbook/webserver/public/stylesheets/style.css",
 		"/D/Workspace/Node/cookbook/webserver/views/layout.jade",
 		"/D/Workspace/Node/cookbook/webserver/views/index.jade",
@@ -167,8 +226,6 @@
 		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.py",
 		"/D/Workspace/MyCode/Mycode.sublime-project",
 		"/D/Workspace/HTML5/Angularjs/angular-phonecat/phoncat.sublime-project",
-		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/D/Workspace/MyCode/wrapper.js",
 		"/C/Users/steven/AppData/Roaming/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
 		"/D/Workspace/HTML5/Angularjs/angular-phonecat/app/index.html",
@@ -191,6 +248,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"noOP",
+			"_globals",
 			"http://expressjs.com/api.html",
 			"app",
 			"process",
@@ -202,6 +261,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"noop",
 			"",
 			"printKeyValue",
 			"obj["
@@ -220,18 +280,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "qtest.js",
+					"file": "app.js",
 					"settings":
 					{
-						"buffer_size": 324,
+						"buffer_size": 844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								324,
-								0
+								515,
+								515
 							]
 						],
 						"settings":
@@ -246,22 +306,104 @@
 				},
 				{
 					"buffer": 1,
+					"file": "qtest.js",
 					"settings":
 					{
-						"buffer_size": 324,
+						"buffer_size": 1517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								324,
-								0
+								1280,
+								1280
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 875.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/mongodb/mongod.cfg",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Batch/InstallMongoService.bat",
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"auto_name": "mongod.exe --config d:\\mongodb\\mongod.cfg --instal",
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -309,7 +451,7 @@
 	},
 	"output.git":
 	{
-		"height": 118.0
+		"height": 197.0
 	},
 	"replace":
 	{
@@ -331,7 +473,7 @@
 		[
 			[
 				"",
-				"/D/Workspace/MyCode/Mycode.sublime-project"
+				"/D/Workspace/Node/cookbook/cookbook.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -340,6 +482,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 232.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true
 }
